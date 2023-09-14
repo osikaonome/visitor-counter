@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* This ensures the wrapper takes up at least the full viewport height */
+}
+
+.footer-container {
+  margin-top: auto; /* Push the footer to the bottom of the wrapper */
+}
+
+/* Add any other styles you need for your footer */
+.footer-container {
+  background-color: #a06ccb;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+

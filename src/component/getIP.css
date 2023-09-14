@@ -1,0 +1,28 @@
+.ip-number{
+    font-size: 20rem;
+    margin: 0;
+    padding: 0;
+    color: #a06ccb;
+    font-weight: 700;
+}
+
+.visits-header{
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.getip-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 5rem;
+  }
+  
